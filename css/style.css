@@ -73,7 +73,7 @@ a{
 
 
 /*Req 6a*/
-td{
+td, .rowhead{
   text-align: center;
   border-top-width: 2px;
   border-top-color: #000000;
