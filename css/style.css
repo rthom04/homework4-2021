@@ -96,7 +96,7 @@ td{
 /*Req 6c*/
 .rowhead{
   border-right: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 /*Req 6d*/
@@ -150,7 +150,7 @@ tbody tr:last-child th:first-child{
   border-radius: 10px;
 }
 
-tbody tr:last-child th:last-child{
+tr:last-child td:last-child{
   border-radius: 10px;
 }
 
@@ -159,12 +159,13 @@ tbody tr:last-child th:last-child{
 
 /*Req 8*/
 footer{
-  width: 100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  min-height: 75px;
   position: absolute;
   bottom:0;
+  width: 100%;
+  min-height: 75px;
+
 }
 
